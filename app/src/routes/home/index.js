@@ -8,6 +8,6 @@ router.get('/', ctrl.output.home);
 router.get('/about', ctrl.output.about);
 router.get('/login', ctrl.output.login);
 
-router.post('/login',ctrl.process.login);
+//router.post('/login',ctrl.process.login);
 
 module.exports = router;
