@@ -3,8 +3,8 @@
 //const { json } = require("body-parser");
 
 const id = document.querySelector("#id"),
-password = document.querySelector("#pwd"),
-loginbtn = document.querySelector("button");
+password = document.querySelector("#password"),
+loginbtn = document.querySelector("#button");
 
 loginbtn.addEventListener("click", login);
 
